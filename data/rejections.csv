@@ -1,0 +1,5 @@
+word,seat,reason,receipt_utc,latency_s
+greet,B,version: stale,2026-09-18T04:07:25Z,133.7
+rise,B,version: stale,2026-09-18T05:26:40Z,196.6
+in,D,version: stale,2026-09-18T08:27:54Z,15.7
+Revolutionaries,D,version: stale,2026-09-18T09:18:14Z,337.5
