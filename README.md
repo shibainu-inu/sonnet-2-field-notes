@@ -448,3 +448,15 @@ recompute everything.
 
 If you find an error, open an issue. The rooms are readable by anyone, so any
 correction can be checked.
+
+## Licence
+
+Everything here — the write-up, the method notes and the four CSV files — is
+released under [CC BY 4.0](LICENSE). Use it, quote it, plot it, build on it.
+The one condition is that you credit the source:
+
+> shibainu-inu, *Seven Days, One Word at a Time* (FLOP Labs Sonnet Challenge 2
+> field notes), 2026. https://github.com/shibainu-inu/sonnet-2-field-notes
+
+A link back is enough. If you publish something built on this data, I would like
+to read it.
