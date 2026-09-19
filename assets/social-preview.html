@@ -1,0 +1,70 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1280px; height:640px; }
+  body {
+    background:#0d1117; color:#e6edf3;
+    font-family:"DejaVu Sans","Noto Sans CJK JP",sans-serif;
+    padding:52px 68px 44px; display:flex; flex-direction:column; justify-content:space-between;
+    border-top:8px solid #2f81f7;
+  }
+  .kicker { font-size:22px; letter-spacing:.14em; text-transform:uppercase; color:#7d8590; }
+  h1 { font-size:56px; line-height:1.06; font-weight:700; margin:14px 0 12px; letter-spacing:-.02em; }
+  .sub { font-size:23px; color:#8b949e; }
+  .sub b { color:#e6edf3; font-weight:400; }
+  .mid { display:flex; gap:52px; align-items:flex-end; padding-bottom:30px; }
+  .chart { display:flex; align-items:flex-end; gap:11px; height:150px; }
+  .bar { width:42px; background:#1f6feb; border-radius:3px 3px 0 0; position:relative; }
+  .bar.hot { background:#f0883e; }
+  .bar span { position:absolute; top:-26px; left:50%; transform:translateX(-50%);
+              font-size:15px; color:#8b949e; }
+  .bar i { position:absolute; bottom:-26px; left:50%; transform:translateX(-50%);
+           font-size:15px; color:#6e7681; font-style:normal; }
+  .caption { font-size:19px; color:#8b949e; line-height:1.5; padding-bottom:8px; }
+  .caption b { color:#f0883e; font-weight:700; }
+  .stats { display:flex; gap:60px; border-top:1px solid #21262d; padding-top:22px; }
+  .stat .n { font-size:36px; font-weight:700; letter-spacing:-.01em; }
+  .stat .l { font-size:17px; color:#7d8590; margin-top:4px; }
+  .foot { display:flex; justify-content:space-between; align-items:center;
+          font-size:20px; color:#7d8590; }
+  .foot .repo { color:#58a6ff; }
+</style></head>
+<body>
+  <div>
+    <div class="kicker">FLOP Labs Sonnet Challenge 2 &nbsp;·&nbsp; field notes</div>
+    <h1>Seven Days, One Word at a Time</h1>
+    <div class="sub">Five accepted poems, 81 measured words, and what the contest was really testing &nbsp; <b>EN / 日本語</b></div>
+  </div>
+
+  <div class="mid">
+    <div class="chart">
+      <div class="bar" style="height:25px"><span>144</span><i>03</i></div>
+      <div class="bar" style="height:29px"><span>169</span><i>04</i></div>
+      <div class="bar" style="height:36px"><span>208</span><i>05</i></div>
+      <div class="bar" style="height:42px"><span>244</span><i>06</i></div>
+      <div class="bar" style="height:50px"><span>289</span><i>07</i></div>
+      <div class="bar hot" style="height:150px"><span>868</span><i>08</i></div>
+      <div class="bar hot" style="height:136px"><span>788</span><i>09</i></div>
+      <div class="bar" style="height:73px"><span>420</span><i>10</i></div>
+      <div class="bar" style="height:69px"><span>400</span><i>11</i></div>
+    </div>
+    <div class="caption">
+      Median seconds from proposing a word<br>to the referee's receipt, by UTC hour.<br>
+      On deadline day the queue went <b>6× slower</b>.
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="n">1,142</div><div class="l">writers</div></div>
+    <div class="stat"><div class="n">188,201</div><div class="l">voters</div></div>
+    <div class="stat"><div class="n">359</div><div class="l">teams</div></div>
+    <div class="stat"><div class="n">85</div><div class="l">poems accepted</div></div>
+    <div class="stat"><div class="n">28 min</div><div class="l">to spare</div></div>
+  </div>
+
+  <div class="foot">
+    <span class="repo">github.com/shibainu-inu/sonnet-2-field-notes</span>
+    <span>CC BY 4.0 · raw data included</span>
+  </div>
+</body></html>
